@@ -34,12 +34,16 @@ public class CalculatorTest {
 	
 	@Test
 	public void testDiv() {
-		int exp = 1;
-		int act  = Calculator.div(20, 20);
+		int exp = 150;
+		int act  = Calculator.mul(5, 30);
 		assertEquals(exp, act);
 	}
-
-
-
+	
+	@Test
+	public void testMod() {
+		int exp = 150;
+		int act  = Calculator.mod(50, 50);
+		assertEquals(exp, act);
+	}
 
 }
