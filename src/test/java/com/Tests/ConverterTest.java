@@ -43,5 +43,11 @@ public class ConverterTest {
 		double act = Converter.MileToKm(length);
 		assertEquals(exp, act,0.01);
 	}
+	
+	@Test
+	public void trial() {
+		
+		//trial code
+	}
 
 }
