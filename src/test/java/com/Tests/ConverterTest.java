@@ -34,5 +34,14 @@ public class ConverterTest {
 		int act = Converter.fToc(temp);
 		assertEquals(exp, act);
 	}
+	
+	@Test
+	public void testMileToKm() {
+		int length = 92;
+		double exp = 148;
+		
+		double act = Converter.MileToKm(length);
+		assertEquals(exp, act,0.01);
+	}
 
 }
