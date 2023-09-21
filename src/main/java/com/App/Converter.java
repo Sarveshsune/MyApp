@@ -25,6 +25,12 @@ public class Converter {
 		double tokm = distance * 1.609;
 		return tokm;
 	}
+	
+	public static double hello(int distance)
+	{
+		//hello
+		return 0;
+	}
 
 	
 	
